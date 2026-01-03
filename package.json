@@ -1,6 +1,6 @@
 {
   "name": "node-lox-ws-api",
-  "version": "0.4.6",
+  "version": "0.4.6.1",
   "description": "Web Socket Loxone™ API",
   "main": "lib/API.js",
   "scripts": {
@@ -26,6 +26,10 @@
   "homepage": "https://github.com/codm/node-lox-ws-api#readme",
   "dependencies": {
     "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^6.0.3"
   },
   "engines": {
     "node": ">=4.2.6"
